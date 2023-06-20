@@ -1,0 +1,9 @@
+<h1>All Customers</h1>
+
+<ul>
+  <% @customers.each do |customer| %>
+    <li>
+      <%= customer.name %>
+    </li>
+  <% end %>
+</ul>
